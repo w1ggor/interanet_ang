@@ -24,18 +24,18 @@
             </div>
 
             <div class="custom_menu-btn">
-              <button (click)="openNav()">
-                <span class="s-1"> </span>
-                <span class="s-2"> </span>
-                <span class="s-3"> </span>
-              </button>
-            </div>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="home">Home</a>
-                <a href="home/about">About</a>
-                <a href="home/feature">Features</a>
-                <a href="home/contact">Contact Us</a>
+                <button (click)="openNav()">
+                  <span class="s-1"> </span>
+                  <span class="s-2"> </span>
+                  <span class="s-3"> </span>
+                </button>
+              </div>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a href="home">Home</a>
+                  <a href="home/about">About</a>
+                  <a href="home/feature">Features</a>
+                  <a href="home/contact">Contact Us</a>
               </div>
             </div>
           </div>
@@ -45,36 +45,55 @@
     <!-- end header section -->
   </div>
 
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container d-flex justify-content-center">
+      <h2 class="text-uppercase">
+        Get in touch
+      </h2>
+    </div>
+    <div class="container-fluid layout_padding-top">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="col-md-10 offset-md-2">
+            <div class="contact_img-box">
+              <img src="assets/form-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 form_bg px-0">
+          <div class="col-md-10 px-0">
+            <form action="">
+              <div class="contact_form-container">
+                <div>
+                  <div>
+                    <input type="text" placeholder=" Name" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="  Email" />
+                  </div>
 
-  <!-- who section -->
-  <section class="who_section layout_padding">
-    <div class="container who_container">
-      <div class="who_img-box">
-        <img src="assets\pc.jpg" alt="" />
-      </div>
-      <div class="who_deail-box">
-        <h2>
-          Who is Newsoft
-        </h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam, quis nostrud exercitation ullamco laboris Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-          veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-          ea commodonisi ut aliquip ex ea commodo
-        </p>
-        <div>
-          <a href="">
-            Read More
-          </a>
+                  <div>
+                    <input type="text" placeholder=" Phone Number" />
+                  </div>
+
+                  <div>
+                    <input type="text" placeholder="Message" class="message_input" />
+                  </div>
+                  <div class="mt-3 d-flex justify-content-end">
+                    <button type="submit">
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- end who section -->
+  <!-- end contact section -->
 
   <!-- info section -->
   <section class="info_section layout_padding">

@@ -24,12 +24,14 @@
               "src/assets"
             ],
             "styles": [
+              "etc/css/css.css",
               "src/styles.css",
               "etc/css/bootstrap.css"
             ],
             "scripts": [
+              "etc/js/jquery-3.4.1.min.js",
               "etc/js/bootstrap.js",
-              "etc/js/jquery-3.4.1.min.js"
+              "etc/js/popper.min.js"
               
             ]
           },
@@ -93,9 +95,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "etc/css/css.css",
+              "src/styles.css",
+              "etc/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "etc/js/jquery-3.4.1.min.js",
+              "etc/js/bootstrap.js",
+              "etc/js/popper.min.js"]
           }
         },
         "lint": {
